@@ -4,13 +4,18 @@
 
 > C development environment with GCC on Alpine Linux
 
+Source code is available on [GitHub](https://github.com/pman0214/docker_alpine-gcc).
+Docker images are available for x86_64 (amd64) and aarch64 (arm64) on [Docker Hub](https://hub.docker.com/r/pman0214/alpine-gcc), which are automatically built with GitHub Actions.
+
 ## Table of Contents
 
-- [Install](#install)
-- [Usage](#usage)
-- [Building](#building)
-- [Contribute](#contribute)
-- [License](#license)
+- [pman0214/alpine-gcc](#pman0214alpine-gcc)
+  - [Table of Contents](#table-of-contents)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Building](#building)
+  - [Contribute](#contribute)
+  - [Copyright, License](#copyright-license)
 
 ## Install
 
@@ -58,8 +63,8 @@ docker buildx build \
 
 * Bugfix pull requests are welcome.
 
-## License
+## Copyright, License
 
 All the source files are released under the MIT license. See `LICENSE.txt`.
 
-* Copyright (c) 2021 Shigemi ISHIDA
+* Copyright (c) 2021-2025 Shigemi ISHIDA
